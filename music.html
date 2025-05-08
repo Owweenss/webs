@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My favorite songs</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"
+      integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="style/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="style/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="style/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="style/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="style/android-chrome-512x512.png"
+    />
+    <link rel="manifest" href="style/site.webmanifest" />
+    <style>
+      .card {
+        border-radius: 1em;
+        text-align: center;
+        padding: 1em;
+      }
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        border-radius: 50%;
+        width: 60%;
+        margin: auto;
+        box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.8);
+        margin-bottom: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="/">
+          <img src="style/logo.png" alt="logo" width="40" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/music.html" target="_self"
+                >Best videoclips</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        <!-- Код для карточки -->
+        <div class="col">
+          <div class="card">
+            <a
+              href="https://youtu.be/2up_Eq6r6Ko?si=qAP2oH4E4d85gLR0"
+              target="_blank"
+            >
+              <img src="style/pit.jpg" class="card-img-top" alt="..." />
+            </a>
+            <div class="card-body">
+              <div style="text-align: center">
+                <h5 class="card-title">Pitbull - Hotel room service</h5>
+                <p class="card-text">Watch this videoclip on YouTube</p>
+                <a
+                  href="https://youtu.be/2up_Eq6r6Ko?si=qAP2oH4E4d85gLR0"
+                  target="_blank"
+                  class="btn btn-primary text-center"
+                  >Watch</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Код для карточки 2 -->
+        <div class="col my-4">
+          <div class="card">
+            <a
+              href="https://youtu.be/hTWKbfoikeg?si=nuhAR0IsMGaIr7TA"
+              target="_blank"
+            >
+              <img src="style/kk.jpg" class="card-img-top" alt="..." />
+            </a>
+            <div class="card-body">
+              <div style="text-align: center">
+                <h5 class="card-title">Nirvana - Smells like teen spirit</h5>
+                <p class="card-text">Watch this videoclip on YouTube</p>
+                <a
+                  href="https://youtu.be/hTWKbfoikeg?si=nuhAR0IsMGaIr7TA"
+                  target="_blank"
+                  class="btn btn-primary text-center"
+                  >Watch</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Код для карточки 3 -->
+        <div class="col">
+          <div class="card">
+            <a
+              href="https://youtu.be/e-ORhEE9VVg?si=a4nnbE5Ff0dEhKfb"
+              target="_blank"
+            >
+              <img src="style/tsw.jpg" class="card-img-top" alt="..." />
+            </a>
+            <div class="card-body">
+              <div style="text-align: center">
+                <h5 class="card-title">Taylor Swift - Blank Space</h5>
+                <p class="card-text">Watch this videoclip on YouTube</p>
+                <a
+                  href="https://youtu.be/e-ORhEE9VVg?si=a4nnbE5Ff0dEhKfb"
+                  target="_blank"
+                  class="btn btn-primary text-center"
+                  >Watch</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
